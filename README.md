@@ -2,6 +2,7 @@
 # Lab07
 В рамках выполнения данной лабораторной работы мною были выполнены команды из tutorial с заменой устаревшего hunter на FetchContent:
 1) Скопирован репозиторий из lab06.
+2) В соответствие с tutorial были установлен hunter и изменён CMakeLists.txt, но в процессе сборки произошла ошибка, связанная с версией компилятора
 ```bash
 $ git clone https://github.com/shirmanovak410-ops/lab06 projects/lab07
 $ cd projects/lab07
@@ -10,7 +11,7 @@ $ git remote add origin https://github.com/shirmanovak410-ops/lab07
 3) В соответствие с tutorial были установлен hunter и изменён CMakeLists.txt, но в процессе сборки произошла ошибка, связанная с версией компилятора
 Мною было принято решение подключить более современный FetchContent
 ```
-4) Для этого в CMakeLists.txt были внесены следующие изменения:
+3) Для этого в CMakeLists.txt были внесены следующие изменения:
 ```bash
 include(FetchContent)
 FetchContent_Declare(
